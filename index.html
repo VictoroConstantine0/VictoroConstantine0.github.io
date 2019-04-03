@@ -8,23 +8,20 @@
 
 <title>
   
-    Vic的博客
+    Vic
   
 </title>
 
-<meta name="description" content="嘤嘤嘤">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Vic的博客">
+<meta property="og:title" content="Vic">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Vic的博客">
-<meta property="og:description" content="嘤嘤嘤">
+<meta property="og:site_name" content="Vic">
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Vic的博客">
-<meta name="twitter:description" content="嘤嘤嘤">
+<meta name="twitter:title" content="Vic">
 
 
-  <link rel="alternative" href="/atom.xml" title="Vic的博客" type="application/atom+xml">
+  <link rel="alternative" href="/atom.xml" title="Vic" type="application/atom+xml">
 
 
 
@@ -47,22 +44,16 @@
     <span class="icon-bar"></span>
     <span class="icon-bar"></span>
   </button>
-  <a class="title" href="/">Vic的博客</a>
+  <a class="title" href="/">Vic</a>
 </div>
 
   <div class="main-container">
     <div class="sidebar">
   <div class="header">
-    <h1 class="title"><a href="/">Vic的博客</a></h1>
-    
-      <p class="subtitle">
-        啥都不会只会嘤嘤嘤
-      </p>
+    <h1 class="title"><a href="/">Vic</a></h1>
     
     <div class="info">
       <div class="content">
-        
-          <div class="description">嘤嘤嘤</div>
         
         
           <div class="author">Victor Constantine</div>
@@ -173,393 +164,12 @@
       </div>
       <div class="article-entry">
         
-          <h2 id="SQLMap语句"><a href="#SQLMap语句" class="headerlink" title="SQLMap语句"></a>SQLMap语句</h2><h2 id="I-spent-TWO-HOURS-to-get-the-blog-RUNNING"><a href="#I-spent-TWO-HOURS-to-get-the-blog-RUNNING" class="headerlink" title="I spent TWO HOURS to get the blog RUNNING!!!!"></a>I spent TWO HOURS to get the blog RUNNING!!!!</h2><h2 id="Thats-FOOKING-NICE-to-have-my-first-blog"><a href="#Thats-FOOKING-NICE-to-have-my-first-blog" class="headerlink" title="Thats FOOKING NICE to have my first blog!"></a>Thats FOOKING NICE to have my first blog!</h2><table>
-<thead>
-<tr>
-<th>指令</th>
-<th style="text-align:left">作用</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>-d</td>
-<td style="text-align:left">连接服务器上的数据库，将sqlmap作为一个服务器上的客户端程序</td>
-</tr>
-<tr>
-<td>-u</td>
-<td style="text-align:left">指定url进行注入，必须有变量名称</td>
-</tr>
-<tr>
-<td>-p</td>
-<td style="text-align:left">只检查某个参数</td>
-</tr>
-<tr>
-<td>-f</td>
-<td style="text-align:left">footprint检查足迹指纹信息</td>
-</tr>
-<tr>
-<td>–users</td>
-<td style="text-align:left">查看当前数据库的账号</td>
-</tr>
-<tr>
-<td>–banner</td>
-<td style="text-align:left">数据库的banner信息，    查看目标系统版本类型的数据库</td>
-</tr>
-<tr>
-<td>-l</td>
-<td style="text-align:left">从burp或者webscarab的代理日志文件中的url进行逐个检查是否有注入点</td>
-</tr>
-<tr>
-<td>-s</td>
-<td style="text-align:left">站点地图</td>
-</tr>
-<tr>
-<td>-m</td>
-<td style="text-align:left">有多个url合并成一个文本文件然后提交给sqlmap进行逐个检查</td>
-</tr>
-<tr>
-<td>-r</td>
-<td style="text-align:left">http和body提交给sqlmap进行请求</td>
-</tr>
-<tr>
-<td>-g</td>
-<td style="text-align:left">用google进行请求然后利用正则表达式进行过滤</td>
-</tr>
-<tr>
-<td>-c</td>
-<td style="text-align:left">用配置文件进行扫描</td>
-</tr>
-<tr>
-<td>-l</td>
-<td style="text-align:left">log.txt (在option的misc里面生成日志文件)</td>
-</tr>
-<tr>
-<td>-u</td>
-<td style="text-align:left">“xxxxxx” –force-ssl</td>
-</tr>
-<tr>
-<td>-c</td>
-<td style="text-align:left">sqlmap.conf 配置文件扫描</td>
-</tr>
-<tr>
-<td>–param-del</td>
-<td style="text-align:left">变量分隔符</td>
-</tr>
-<tr>
-<td>–data</td>
-<td style="text-align:left">数据段</td>
-</tr>
-<tr>
-<td>–cookie</td>
-<td style="text-align:left">cookie头web应用需要基于cookie的身份认证 检查cookie中的注入点 Set-Cookie /–drop-set-cookie</td>
-</tr>
-<tr>
-<td>–user-agent=</td>
-<td style="text-align:left">指定agent eg:sqlmap/1.0-dev-xxxxx (<a href="http://sqlmap.org" target="_blank" rel="noopener">http://sqlmap.org</a>)</td>
-</tr>
-<tr>
-<td>–random-agent</td>
-<td style="text-align:left">随机agent /user/share/sqlmap/txt/user-agents.txt  不是已知的user agent的时候服务器可能会drop掉请求</td>
-</tr>
-<tr>
-<td>–host=”xxx”</td>
-<td style="text-align:left">(level=5)</td>
-</tr>
-<tr>
-<td>–referer</td>
-<td style="text-align:left">(level&gt;=3)</td>
-</tr>
-<tr>
-<td>–headers=””</td>
-<td style="text-align:left">eg:–headers=”host:xxxxxx\nUser-Agent:xxxxx” User-Agent大小写敏感</td>
-</tr>
-<tr>
-<td>–auth</td>
-<td style="text-align:left">eg:sqlmap -u “xxxx” –auth-type Basic –auth-cred “user:pass” </td>
-</tr>
-<tr>
-<td>–auth-cert/-file</td>
-<td style="text-align:left">PEM格式的证书链文件(含有私钥的PEM格式证书文件)</td>
-</tr>
-<tr>
-<td>–proxy</td>
-<td style="text-align:left">eg:–proxy=”<a href="http://127.0.0.1:8087&quot;" target="_blank" rel="noopener">http://127.0.0.1:8087&quot;</a></td>
-</tr>
-<tr>
-<td>–proxy-cred</td>
-<td style="text-align:left">eg:–proxy-cred=”name:pass”</td>
-</tr>
-<tr>
-<td>–ignore-proxy</td>
-<td style="text-align:left">忽略系统代理设置，通常用于扫描本地网络目标 eg:sqlmap -u “xxx” -proxy=”htttp://127.0.0.1:8087” -f</td>
-</tr>
-<tr>
-<td>–delay</td>
-<td style="text-align:left">每次请求之间的延迟时间，浮点数，单位为秒，默认无延迟</td>
-</tr>
-<tr>
-<td>–timeout</td>
-<td style="text-align:left">请求超时时间，浮点数，默认为30秒</td>
-</tr>
-<tr>
-<td>–retries</td>
-<td style="text-align:left">了解超时重试次数，默认为3次</td>
-</tr>
-<tr>
-<td>–randomize</td>
-<td style="text-align:left">长度，类型与原始值保持一致的前提下，指定每次请求随机取值的参数名 -randomize=”id”</td>
-</tr>
-<tr>
-<td>–scope</td>
-<td style="text-align:left">过滤日志内容，通过正则表达式筛选扫描对象 sqlmap -l burp.log –scope=”(www)?\target.(com &#124; net &#124; org)”</td>
-</tr>
-<tr>
-<td>–safe-url/freq</td>
-<td style="text-align:left">检测和盲注阶段会产生大量的失败请求，服务器端可能销毁session每发送–safe-freq次注入请求后，发送一次正常请求</td>
-</tr>
-<tr>
-<td>–skip-urlencode</td>
-<td style="text-align:left">跳过url编码，默写WEB服务器不遵守RFC标准编码，使用原始字符提交数据</td>
-</tr>
-<tr>
-<td>–eval</td>
-<td style="text-align:left">请求前执行指定的python代码sqlmap -u “xxx” –eval=”import hashlib;hash=hashlib.md5(id).hexdigest()”</td>
-</tr>
-<tr>
-<td>–predict-output</td>
-<td style="text-align:left">根据检测方法，比对返回值和统计表的内容，不断缩小检测范围，提高检测效率   与–threads参数不兼容</td>
-</tr>
-<tr>
-<td>–keep-alive</td>
-<td style="text-align:left">与 –proxy参数不兼容  长连接避免重复建立链接的网络开销，但大量长连接会严重占用服务器资源</td>
-</tr>
-<tr>
-<td>–null-connection</td>
-<td style="text-align:left">之获取相应页面的大小之，而非页面集体内容 通常用于盲注判断真/假，降低网络带宽消耗 与–text-only参数不兼容</td>
-</tr>
-<tr>
-<td>–threads=7</td>
-<td style="text-align:left">最大并发线程盲注时每个线程获取一个字符，获取完成后线程结束建议不要超过10，否则可能影响站点的可用性与 –predict-output参数不兼容</td>
-</tr>
-<tr>
-<td>-o</td>
-<td style="text-align:left">开启前3三个性能参数(除–threads参数)</td>
-</tr>
-<tr>
-<td>–skip</td>
-<td style="text-align:left">排除指定的扫描参数 eg： –level=5 –skip=”id.user-agent”</td>
-</tr>
-<tr>
-<td>–dbms=”xxxx”</td>
-<td style="text-align:left">指定数据库</td>
-</tr>
-<tr>
-<td>–os=”xxxx”</td>
-<td style="text-align:left">指定操作系统</td>
-</tr>
-<tr>
-<td>–invalid-bignum/-logical</td>
-<td style="text-align:left">通常sqlmap使用负值使参数值失效    id=13 -&gt;id =-13 bignum用大叔使参数值失效    id=9999999  logical使用布尔判断使取值失效 id=13 AND 18=19</td>
-</tr>
-<tr>
-<td>–no-cast</td>
-<td style="text-align:left">榨取数据时，sqlmap将所有结果转换为字符串，并用空格和替换NULL结果 老版本mysql数据库需要开启此开关</td>
-</tr>
-<tr>
-<td>–no-escape</td>
-<td style="text-align:left">(使用该参数将关闭sqlmap使用char()编码逃逸的方法替换字符串)</td>
-</tr>
-<tr>
-<td>–prefix /–suffix</td>
-<td style="text-align:left">前缀/后缀 –suffix “AND” (‘abc’=’abc’) –&gt;query= xxxx <payload> AND (‘abc’=’abc’) xxxx;</payload></td>
-</tr>
-<tr>
-<td>–tamper</td>
-<td style="text-align:left">混淆脚本，用于绕过应用层过滤，IPS，WAF   eg：–tamper=”tamper/between.py,tamper/randomcase.py,tamper/space2comment.py”-v 3</td>
-</tr>
-<tr>
-<td>-dns-domain</td>
-<td style="text-align:left">攻击者控制了某DNS服务器，使用此功能可以提高榨取速度 eg： attacker.com</td>
-</tr>
-<tr>
-<td>–second-order</td>
-<td style="text-align:left">在一个页面注入的结果，从另外一个页面显示出来  –second-order   xxxx</td>
-</tr>
-<tr>
-<td>–current-user</td>
-<td style="text-align:left">当前数据库用户</td>
-</tr>
-<tr>
-<td>–current-db</td>
-<td style="text-align:left">当前数据库</td>
-</tr>
-<tr>
-<td>–hostname</td>
-<td style="text-align:left">主机名</td>
-</tr>
-<tr>
-<td>–users</td>
-<td style="text-align:left">所有用户的账号</td>
-</tr>
-<tr>
-<td>–privileges -U</td>
-<td style="text-align:left">–privileges -U username(CU当前帐号)    查询当前账户的权限</td>
-</tr>
-<tr>
-<td>–roles</td>
-<td style="text-align:left">各种角色</td>
-</tr>
-<tr>
-<td>–dbs</td>
-<td style="text-align:left">查询数据库</td>
-</tr>
-<tr>
-<td>–table</td>
-<td style="text-align:left">–exclude-sysdbs -D dvwa</td>
-</tr>
-<tr>
-<td>-T users</td>
-<td style="text-align:left">指定表名</td>
-</tr>
-<tr>
-<td>-D dvwa</td>
-<td style="text-align:left">指定数据库</td>
-</tr>
-<tr>
-<td>-C user</td>
-<td style="text-align:left">指定列名</td>
-</tr>
-<tr>
-<td>–common</td>
-<td style="text-align:left">常规</td>
-</tr>
-<tr>
-<td>–schema –batch –exclude-sysdbs</td>
-<td style="text-align:left">元数据(使用默认选项)</td>
-</tr>
-<tr>
-<td>–count</td>
-<td style="text-align:left">查询记录</td>
-</tr>
-<tr>
-<td>–dump</td>
-<td style="text-align:left">C(column), -T(table), -D(database), –start, –stop (具体第几条记录)    –dump-all –exclude-sysdbs     –sql-query “select * from users”</td>
-</tr>
-<tr>
-<td>–common-columns/-tables</td>
-<td style="text-align:left">Access系统无列信息</td>
-</tr>
-<tr>
-<td>–file-read/-write</td>
-<td style="text-align:left">eg：–file-write=”xxxxxx”Mysql postaresql  上传共享库并生成sys_exec()、sys_eval()两个UDF</td>
-</tr>
-<tr>
-<td>–reg-read</td>
-<td style="text-align:left">读取注册表</td>
-</tr>
-<tr>
-<td>–reg-add</td>
-<td style="text-align:left">增加注册表</td>
-</tr>
-<tr>
-<td>–reg-del</td>
-<td style="text-align:left">删除注册表</td>
-</tr>
-<tr>
-<td>–reg-key(键值名称)-value-data-type</td>
-<td style="text-align:left">sqlmap.py -u= “xxx” –reg-add=”xxxxx” –reg-value=Test –reg-type=REG_SZ –reg-data=1”</td>
-</tr>
-<tr>
-<td>-s</td>
-<td style="text-align:left">sqlite会话文件保存位置</td>
-</tr>
-<tr>
-<td>-t</td>
-<td style="text-align:left">记录流量文件保存位置</td>
-</tr>
-<tr>
-<td>–charset</td>
-<td style="text-align:left">强制字符编码  –charset=GBK</td>
-</tr>
-<tr>
-<td>–crawl</td>
-<td style="text-align:left">从起始位置爬站深度  –batch –crawl=3</td>
-</tr>
-<tr>
-<td>–csv-del</td>
-<td style="text-align:left">dump数据默认保存于”,”分割的csv文件中，指定其他分隔符  –csv-del=”;”</td>
-</tr>
-<tr>
-<td>–dbms-cred</td>
-<td style="text-align:left">指定数据库账号</td>
-</tr>
-<tr>
-<td>–flush-session</td>
-<td style="text-align:left">清空session</td>
-</tr>
-<tr>
-<td>–force-ssl</td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td>–fresh-queries</td>
-<td style="text-align:left">忽略session查询结果</td>
-</tr>
-<tr>
-<td>–hex</td>
-<td style="text-align:left">dump非ASCII字符内容时，将其编码位16进制形式，收到后解码还原  sqlmap -u “xxx” –hex -v 3</td>
-</tr>
-<tr>
-<td>–output-dir=/tmp</td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td>–parse-errors</td>
-<td style="text-align:left">分析和实现数据库内建报错信息 sqlmap.py -u “xxx” –parse-errors</td>
-</tr>
-<tr>
-<td>–save</td>
-<td style="text-align:left">将命令保存成配置文件</td>
-</tr>
-<tr>
-<td>-z</td>
-<td style="text-align:left">参数助记符    sqlmap –batch –random-agent –ignore-proxy –technique=BEU -u “xxx”  \n sqlmap -z “bat,randoma,ign,tec=BEU” -u “xxxxx”</td>
-</tr>
-<tr>
-<td>–answer</td>
-<td style="text-align:left">给问题的回答  –answers=”extending=N” –batch</td>
-</tr>
-<tr>
-<td>–check-waf</td>
-<td style="text-align:left">检测WAF/IPS/IDS</td>
-</tr>
-<tr>
-<td>–hpp</td>
-<td style="text-align:left">绕过WAF/IPS/IDS的有效方法，尤其对ASP/IIS和ASP.NET/IIS</td>
-</tr>
-<tr>
-<td>–identify-waf</td>
-<td style="text-align:left">彻底的WAF/IPS/IDS检查    支持30多种产品</td>
-</tr>
-<tr>
-<td>–mobile</td>
-<td style="text-align:left">模拟智能手机设备</td>
-</tr>
-<tr>
-<td>–purge-output</td>
-<td style="text-align:left">清理output文件夹</td>
-</tr>
-<tr>
-<td>–smart</td>
-<td style="text-align:left">当有大量检测目标时，只选择基于错误的检测结果</td>
-</tr>
-<tr>
-<td>–wizard</td>
-<td style="text-align:left">向导</td>
-</tr>
-</tbody>
-</table>
-
+          <h2 id="SQLMap语句"><a href="#SQLMap语句" class="headerlink" title="SQLMap语句"></a>SQLMap语句</h2>
+          <p>
+            <a href="/2019/03/24/SQLMap语句/">
+              阅读全文
+            </a>
+          </p>
         
       </div>
     </div>
@@ -610,7 +220,7 @@
 
           <div class="main-footer">
   
-    © 2019 Vic的博客 - Powered by <a href="http://hexo.io" target="_blank">Hexo</a> - Theme <a href="https://github.com/denjones/hexo-theme-chan" target="_blank">Chan</a>
+    © 2019 Vic - Powered by <a href="http://hexo.io" target="_blank">Hexo</a> - Theme <a href="https://github.com/denjones/hexo-theme-chan" target="_blank">Chan</a>
   
 </div>
 
