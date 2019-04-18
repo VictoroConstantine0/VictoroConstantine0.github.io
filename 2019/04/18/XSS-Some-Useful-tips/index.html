@@ -8,17 +8,23 @@
 
 <title>
   
-    归档: 2019/3
+    XSS-Some Useful tips
   
 </title>
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Vic">
-<meta property="og:url" content="http://yoursite.com/archives/2019/03/index.html">
+<meta name="description" content="xss click me! this is body xss">
+<meta property="og:type" content="article">
+<meta property="og:title" content="XSS-Some Useful tips">
+<meta property="og:url" content="http://yoursite.com/2019/04/18/XSS-Some-Useful-tips/index.html">
 <meta property="og:site_name" content="Vic">
+<meta property="og:description" content="xss click me! this is body xss">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://yoursite.com/2019/04/18/XSS-Some-Useful-tips/x">
+<meta property="og:updated_time" content="2019-04-18T11:50:28.064Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Vic">
+<meta name="twitter:title" content="XSS-Some Useful tips">
+<meta name="twitter:description" content="xss click me! this is body xss">
+<meta name="twitter:image" content="http://yoursite.com/2019/04/18/XSS-Some-Useful-tips/x">
 
 
   <link rel="alternative" href="/atom.xml" title="Vic" type="application/atom+xml">
@@ -136,91 +142,58 @@
       
         <div style="max-width: 1000px">
       
-          
-
+          <article id="post-XSS-Some-Useful-tips" class="article article-type-post">
+  
+    <h1 class="article-header">
+      XSS-Some Useful tips
+    </h1>
   
   
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <h1><a href="/archives/2019" class="archive-year">2019</a></h1>
-        </div>
-        <div class="post-list">
-    
-  
 
-    <div class="post-list-item article">
-      <h3 class="article-header">
-        <a href="/2019/03/24/SQLMap语句/">
-  SQLMap
-</a>
-
-      </h3>
-      
-
-      <div class="article-info">
-        <a href="/2019/03/24/SQLMap语句/"><span class="article-date">
-  2019-03-24
+  <div class="article-info">
+    <span class="article-date">
+  2019-04-18
 </span>
-</a>
-        
 
-        
-
-      </div>
-      <div class="article-entry">
-        
-          <h2 id="SQLMAP语句"><a href="#SQLMAP语句" class="headerlink" title="SQLMAP语句"></a>SQLMAP语句</h2>
-          <p>
-            <a href="/2019/03/24/SQLMap语句/">
-              阅读全文
-            </a>
-          </p>
-        
-      </div>
-    </div>
-
-  
-
-  
-  
     
-  
 
-    <div class="post-list-item article">
-      <h3 class="article-header">
-        <a href="/2019/03/17/FOOKING-HELL/">
-  FOOKING HELL
-</a>
+    
 
-      </h3>
+  </div>
+  <div class="article-entry">
+    <p><a herf="javascript:alert(1)">xss</a></p>
+<p><button onclick="alert(1)">click me!</button></p>
+<p><body onload="alert;">this is body</body></p>
+<p></p><p onmouseover="alert(1);">xss</p><br><img src="x" onerror="alert(1);"><p></p>
+
+  </div>
+  <footer class="article-footer">
+    
+  <div class="cc">
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/deed.z" target="_blank" title="署名-相同方式共享">
+      <img src="/images/cc/cc.png">
       
-
-      <div class="article-info">
-        <a href="/2019/03/17/FOOKING-HELL/"><span class="article-date">
-  2019-03-17
-</span>
-</a>
+          <img src="/images/cc/by.png">
         
-
-        
-
-      </div>
-      <div class="article-entry">
-        
-          <h2 id="I-spent-TWO-HOURS-to-get-the-blog-RUNNING"><a href="#I-spent-TWO-HOURS-to-get-the-blog-RUNNING" class="headerlink" title="I spent TWO HOURS to get the blog RUNNING!!!!"></a>I spent TWO HOURS to get the blog RUNNING!!!!</h2><h2 id="Thats-FOOKING-NICE-to-have-my-first-blog"><a href="#Thats-FOOKING-NICE-to-have-my-first-blog" class="headerlink" title="Thats FOOKING NICE to have my first blog!"></a>Thats FOOKING NICE to have my first blog!</h2>
-        
-      </div>
-    </div>
-
-  
+          <img src="/images/cc/sa.png">
+      
+      <span>
+        本作品采用知识共享 署名-相同方式共享 4.0 国际许可协议进行许可。
+      </span>
+    </a>
+  </div>
 
 
+    
+
+  </footer>
+</article>
 
 
-</div></section>
+
+
+
+
 
           <div class="main-footer">
   
